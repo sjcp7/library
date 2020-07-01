@@ -46,12 +46,6 @@ h1 {
 
 
 #cards {
-    /* display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 3rem auto; */
-
     display: grid;
     column-gap: 10px;
     row-gap: 5px;

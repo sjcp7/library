@@ -1,10 +1,13 @@
 let myLibrary = JSON.parse(localStorage.getItem('list_books')) || [];
 
-function Book(title, author, pages, wasRead) {
-    this.title = title;
-    this.author = author;
-    this.pages = pages;
-    this.wasRead = wasRead;
+function Book{
+    constructor (title, author, pages, wasRead) {
+        this.title = title;
+        this.author = author;
+        this.pages = pages;
+        this.wasRead = wasRead;
+    }
+
 }
 
 function addBookToLibrary(e) {
